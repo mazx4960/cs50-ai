@@ -77,11 +77,12 @@ def normalize(vector):
     return vector / vector.sum()
 
 
-def time_execution(func, *args):
+def time_execution(func, *args, runs= 100):
     """
     Return the time it takes to execute the code.
     """
     start = time.time()
-    result = func(*args)
+    for _ in range(runs):
+        result = func(*args)
     end = time.time()
     return result, end - start

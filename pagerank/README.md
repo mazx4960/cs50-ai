@@ -34,6 +34,10 @@ For example, if there are 4 links in total, the initial probability, v, could be
 
 However, we can observe that raising A to an infinite power, n, times v would be the same as A^(n + 1)v since there is nothing larger than infinite. Hence, by factorising both sides, we can observe that there would be a given u where Au = u, and u turns out to be the terminal probability distribution for page ranks, which could be easily solved using eigen vectors. 
 
+## Results
+
+![](results/run1.jpg)
+
 ## References
 * http://pi.math.cornell.edu/~mec/Winter2009/RalucaRemus/Lecture3/lecture3.html
 * https://math.stackexchange.com/questions/936757/why-is-pagerank-an-eigenvector-problem

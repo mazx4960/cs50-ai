@@ -15,21 +15,21 @@ def main():
 
     ranks, time_taken = time_execution(sample_pagerank, corpus, DAMPING, SAMPLES)
     print(f"PageRank Results from Sampling (n = {SAMPLES})")
-    print(f"Time taken: {time_taken:.4f} seconds")
+    print(f"Time taken (100 runs): {time_taken:.8f} seconds")
     for page in sorted(ranks):
-        print(f"  {page}: {ranks[page]:.8f}")
+        print(f"  {page}: {ranks[page]:.4f}")
 
     ranks, time_taken = time_execution(iterate_pagerank, corpus, DAMPING)
     print(f"PageRank Results from Iteration")
-    print(f"Time taken: {time_taken:.4f} seconds")
+    print(f"Time taken (100 runs): {time_taken:.8f} seconds")
     for page in sorted(ranks):
-        print(f"  {page}: {ranks[page]:.8f}")
+        print(f"  {page}: {ranks[page]:.4f}")
     
     ranks, time_taken = time_execution(eigen_pagerank, corpus, DAMPING)
     print(f"PageRank Results from Eigenvalue")
-    print(f"Time taken: {time_taken:.4f} seconds")
+    print(f"Time taken (100 runs): {time_taken:.8f} seconds")
     for page in sorted(ranks):
-        print(f"  {page}: {ranks[page]:.8f}")
+        print(f"  {page}: {ranks[page]:.4f}")
 
 
 if __name__ == "__main__":
