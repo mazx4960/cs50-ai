@@ -10,6 +10,7 @@ Project files for CS50 AI course. https://cs50.harvard.edu/ai/
 
 ## Featured projects
 * [PageRank](/pagerank) - Web page ranking algorithm using the random surfer model (markov chain)
+  * Additional: algo implemented using eigenvectors
 * [Parser](/parser) - Parse an english sentence to check if it follows the grammar rules
 * [Questions](/questions) - Query a corpus a documents for answers to your question using tf-idf
 * [Traffic](/traffic) - Categorise images of traffic signs using CNN
