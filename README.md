@@ -9,6 +9,7 @@ Project files for CS50 AI course. https://cs50.harvard.edu/ai/
 * `word2vec` - model to obtain the vectors for words based on their spatial meaning
 
 ## Featured projects
+* [PageRank](/pagerank) - Web page ranking algorithm using the random surfer model (markov chain)
 * [Parser](/parser) - Parse an english sentence to check if it follows the grammar rules
 * [Questions](/questions) - Query a corpus a documents for answers to your question using tf-idf
 * [Traffic](/traffic) - Categorise images of traffic signs using CNN
